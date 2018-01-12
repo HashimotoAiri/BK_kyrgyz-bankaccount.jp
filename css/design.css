@@ -1,0 +1,394 @@
+ @charset "utf-8";
+/* CSS Document */
+
+body {
+	margin: 0px auto;
+	min-width: 100%;
+	width: 100%;
+	padding: 0;
+	/*font-family: 'Lucida Grande', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ, sans-serif;*/
+	font-family:Helvetica,Arial, Roboto, “Droid Sans”, “游ゴシック”, YuGothic,“ヒラギノ角ゴ ProN W3″,“Hiragino Kaku Gothic ProN”, “メイリオ”,Meiryo, sans-serif;
+	/*font-size: 100%;*/
+	-webkit-text-size-adjust: 100%;
+	background-color: #ffffff;
+	overflow-y: scroll;
+	word-break: break-all;
+}
+p {
+	margin: 0px;
+	padding: 0px;
+}
+
+h1,h2,h3,h4,h5,h6{
+	margin: 0px;
+	padding: 0px;
+	line-height:0px;	
+}
+
+p, ul {
+/*font-family:"Proxima Nova Light", 'Helvetica Neue', Arial, Helvetica, sans-serif;
+	font-size-adjust:0.488;
+	font-weight:200;
+	font-style:normal;*/
+}
+li {
+	margin: 0px;
+	padding: 0px;
+}
+input {
+}
+
+
+img {
+	max-width: 100%;
+	height: auto;
+	border: 0;
+	line-height:0px;
+}
+
+.txt_center{
+	text-align:center;
+}
+
+/*a:link {
+	color: #03342C;
+	text-decoration: underline;
+}
+a:visited {
+	color: #005600;
+	text-decoration: underline;
+}
+a:hover {
+	color: #FF5F00;
+	text-decoration: none;
+}
+
+a:hover img{
+    filter:alpha(opacity=50);
+    -moz-opacity: 0.5;
+    opacity: 0.5;
+}
+*/
+
+.p_top20{
+	padding-top:20px;
+}
+
+.p_bottom20{
+	padding-bottom:20px;
+}
+
+.clearfix:after {  
+  content: ".";   
+  display: block;   
+  height: 0;   
+  clear: both;   
+  visibility: hidden;  
+}  
+  
+.clearfix { display: inline-table; }  
+  
+/* Hides from IE-mac \*/  
+* html .clearfix { height: 1%; }  
+.clearfix { display: block; }  
+/* End hide from IE-mac */  
+
+
+.bg_black{
+	background-color:#000000;
+}
+
+
+.top_bg{
+	/*background-color:#7d0000;*/
+	margin: 0px auto;
+	width: 100%;
+	height:640px;
+	background-image:url(../images/00top_bg.jpg);
+	background-position:center center;
+	background-repeat:no-repeat;
+}
+
+.top_waku{
+	width:1000px;
+	height:640px;
+	position:relative;
+	margin: 0px auto;
+}
+
+.top_img{
+	text-align:center;
+}
+
+.top_btn{
+	position: absolute;
+	top:0;
+	right:0;
+	z-index:200;
+}
+
+
+.sc_bg{
+	background-image:url(../images/01bg_rep.png);
+	background-repeat:repeat;
+	max-width:1366px;
+	text-align:center;
+	margin: 0px auto;
+}
+
+
+.layout_area{
+	margin: 0px auto;
+	text-align:center;
+	width:1366px;
+}
+
+.apply_area{
+	background-color:#000000;
+	padding:20px;
+}
+
+
+.supp_area{
+	background-color:#fff8dc;
+}
+
+.supp_info{
+	font-size:30px;
+	line-height:48px;
+}
+
+.supp_table_bg{
+	background-color:#7d0000;
+	margin: 0px auto;
+	width:1000px;
+}
+
+.supp_title{
+	font-size:30px;
+	line-height:48px;
+	color:#FFFFFF;
+}
+
+.supp_info2{
+	font-size:16px;
+	line-height:24px;
+	color:#FFFFFF;
+	padding:10px;
+}
+
+
+
+.supp_title2{
+	font-size:30px;
+	line-height:48px;
+	color:#FFFFFF;
+	padding-bottom:10px;
+	padding-top:10px;
+	background-color:#7d0000;
+	width:1000px;
+	margin: 0px auto;
+	
+}
+
+
+.wall6 .wid-max{ 
+	width:70%;
+	margin:0 auto;
+	padding-top:20px;
+}
+.wall6 .wid-max p{ font-size:230%;}
+.wall6 table{
+	border: solid 2px #ccc;
+	width:98%;
+	margin:0 auto;
+}
+.wall6 table th,.wall6 table td{border: solid 2px #ccc; text-align:center}
+.wall6 table th{ padding-top:10px; padding-bottom:10px; font-weight:bold;}
+.wall6 table td{ padding-top:20px; padding-bottom:15px;}
+.link1{ text-align:center; font-weight:bold; font-size:105%;}
+.link1 th{ background-color:#ddf1f8;font-weight:bold;}
+.link1 th img,.wall6 table img{ width:150px;}
+.link1 a{ font-weight:normal;}
+.link1 span{font-family:"ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;}
+.link2 td{ font-weight:bold;}
+.link2 td a{ font-weight:normal; text-decoration:none;}
+.link2 td a:hover{ text-decoration:underline;}
+.list{
+	width:130px;
+	margin:0 auto;
+}
+.wall6 table td ul{
+	margin-top:-10px;
+	width:50%;
+	float:left;
+	font-size:67%;
+	text-align:right;
+}
+.wall6 table td ul li{	height:20px;}
+.wall6 .sapo .center{ 
+	text-align:center;
+	margin-top:20px;
+	margin-bottom:-10px;
+}
+.wall6 table .min{ display:block; font-size:100%; line-height:100%;}
+.wall6 table .bo{ font-weight:bold;}
+.wall6 .wid-left{ width:98%; margin:0 auto; margin-bottom:20px;}
+
+
+.wall6 table .intable table{
+	background-color: #FFFFFF!important;
+	border: none!important;
+	width:40%!important;
+	font-size:24px;
+}
+
+.wall6 table .intable td{
+	background-color: #FFFFFF!important;
+	border: none!important;
+}
+
+.wall6 table .intable tbody{
+	background-color: #FFFFFF!important;
+	border: none!important;
+}
+
+
+.all_rate{
+	margin:0 auto;
+	width:940px;
+	padding-bottom:20px;
+	padding-top:20px;
+}
+
+
+
+.left_rate{
+	float:left;
+	width:50%;
+}
+
+.right_rate{
+	float:right;
+	width:50%;
+}
+
+.click_txt{
+
+}
+
+
+
+
+
+.faq_area{
+	background-color:#003466;
+}
+
+.faq_board{
+	background-color:#ffffff;
+	width:980px;
+	padding:10px;
+	margin:10px auto;
+}
+
+.faq_q{
+	font-size:16px;
+	line-height:26px;
+	color:#003466;
+	text-align:left;
+	font-weight:bold;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-left: 60px;
+	padding-bottom: 10px;
+	background-image: url(../images/05_q.png);
+	background-position: left top;
+	background-repeat: no-repeat;	
+}
+
+.faq_a{
+	font-size: 16px;
+	line-height: 26px;
+	color: #7d0000;
+	text-align: left;
+	font-weight: bold;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-left: 60px;
+	padding-bottom: 10px;
+	background-image: url(../images/05_a.png);
+	background-position: left top;
+	background-repeat: no-repeat;
+}
+
+
+
+.after_fl{
+	background-color:#fff8dc;
+}
+
+.after_grp{
+	background-color:#7d0000;
+	width:960px;
+	padding:20px;
+	margin:0px auto;
+}
+
+.after_txt{
+	color:#FFFFFF;
+	padding:10px;
+}
+
+.after_fl table td{
+	padding:10px;
+	margin:1px;
+}
+
+
+
+
+.step_area{
+	background-color:#003466;
+}
+
+.step_all{
+	width:1000px;
+	margin:0px auto;
+}
+
+.step_fl{
+	width:250px;
+	float:left;
+}
+
+.step_sub{
+	width:980px;
+	text-align:left;
+	color:#FFFFFF;
+	margin:0px auto;
+	padding:10px;
+	font-weight:bold;
+}
+
+
+.step_txtall{
+	width:980px;
+	text-align:left;
+	margin:0px auto;
+	padding:10px;
+	font-size:16px;
+	line-height:26px;
+	font-weight:bold;
+	background-color:#FFFFFF;
+}
+
+
+.last_txt{
+	color:#FFFFFF;
+	text-align:left;
+	width:980px;
+	text-align:left;
+	margin:0px auto;
+	padding:10px;
+}
